@@ -1,0 +1,37 @@
+.user-history {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .history-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  .history-card {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .history-card p {
+    margin: 0.5rem 0;
+  }
+  
+  .history-card button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .history-card button:hover {
+    background-color: #0056b3;
+  }
+  
